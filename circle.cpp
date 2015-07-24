@@ -76,7 +76,6 @@ int main(int argc, char* argv[])
 		
 		
 		cvSmooth(hsv_and, hsv_and, CV_MEDIAN, 3, 3);
-		cvShowImage( "hsv and", hsv_and );
 		char c = cvWaitKey(33);
 		//27 символ это "esc"
 		if (c == 27) break;
